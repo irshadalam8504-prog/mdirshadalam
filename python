@@ -1,0 +1,63 @@
+class ATM:
+  def __init__(self):
+    self.pin=""
+    self.balance=1000  #intstance variable
+    self.menu()
+
+  def menu(self):
+    user_input=input(""" Hi ! HOW CAN I HELP YOU?
+    1. Press 1 to create pin
+    2. Press 2 to change Pin
+    3. Press 3 to check balacne
+    4. Press 4 to wirhdraw
+    5. Press 5 to deposit
+    6. Press any to exit
+    """)
+    if user_input== '1':
+      self.createPin()
+    if user_input== '2':
+      self.changePin()
+    if user_input== '3':
+      self.checkBalance()
+    if user_input== '4':
+      self.withdraw()
+    if user_input== '5':
+      self.deposit()
+    else:
+      exit()
+
+
+  def createPin(self):
+    user_pin=input("Enter New Pin")
+    self.pin=user_pin
+    self.menu()
+
+  def deposit(self):
+    amount=int(input("Enter amount to deposit"))
+    self.balance+=amount
+    self.menu()
+  def withdraw(self):
+    user_pin=input("Enter your pin")
+    if self.pin==user_pin:
+      amount=int(input("Enter amount to withdraw"))
+      if self.balance>=amount:
+        self.balance=self.balance-amount
+        print("Withdrawn succesfully:",amount)
+      else:
+        print("Abbey gareeb")
+    self.menu()
+
+  def changePin(self):
+    old_pin=input("Enter old pin")
+    if self.pin==old_pin:
+      new_pin=input("Enter new pin")
+      self.pin=new_pin
+    else:
+      print("Galat pin hai")
+    self.menu()
+
+  def checkBalance(self):
+    user_pin=input("Enter your pin")
+    if self.pin==user_pin:
+      print("Avaiable Balance:",self.balance)
+    self.menu()
