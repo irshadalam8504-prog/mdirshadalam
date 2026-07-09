@@ -1,22 +1,22 @@
-# 🏧 ATM Management System (Python)
+#  ATM Management System (Python)
 
 A simple command-line ATM application built using **Python** and **Object-Oriented Programming (OOP)** concepts. This project simulates basic ATM operations such as creating a PIN, checking balance, depositing money, withdrawing cash, and changing the PIN.
 
-## 🚀 Features
+##  Features
 
-- 🔐 Create a new ATM PIN
-- 🔄 Change existing PIN
-- 💰 Check account balance
-- 💵 Deposit money
-- 💸 Withdraw money
-- 🖥️ Interactive menu-driven interface
+-  Create a new ATM PIN
+-  Change existing PIN
+-  Check account balance
+-  Deposit money
+-  Withdraw money
+-  Interactive menu-driven interface
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - Object-Oriented Programming (Classes & Objects)
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ATM/
@@ -24,7 +24,7 @@ ATM/
 └── README.md
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
 
@@ -44,7 +44,7 @@ cd ATM
 python atm.py
 ```
 
-## 📋 Menu Options
+##  Menu Options
 
 ```
 1. Create PIN
@@ -55,7 +55,7 @@ python atm.py
 6. Exit
 ```
 
-## 💡 Concepts Demonstrated
+##  Concepts Demonstrated
 
 - Python Classes & Objects
 - Constructors (`__init__`)
@@ -65,7 +65,7 @@ python atm.py
 - Conditional Statements
 - Basic Banking Logic
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Store user data in a file or database
 - Multiple user accounts
@@ -77,7 +77,7 @@ python atm.py
 - Exception handling
 - Better menu using loops instead of recursive calls
 
-## 📸 Sample Output
+##  Sample Output
 
 ```
 Hi! HOW CAN I HELP YOU?
@@ -100,7 +100,7 @@ Enter your PIN: ****
 Available Balance: 1500
 ```
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 This project is ideal for beginners learning:
 
@@ -110,8 +110,8 @@ This project is ideal for beginners learning:
 - Class Design
 - Menu-Driven Applications
 
-## 👨‍💻 Author
+##  Author
 
 **Your Name**
 
-If you found this project helpful, feel free to ⭐ the repository and contribute!
+If you found this project helpful, feel free to  the repository and contribute!
