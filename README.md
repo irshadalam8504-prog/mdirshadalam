@@ -112,6 +112,6 @@ This project is ideal for beginners learning:
 
 ##  Author
 
-**Your Name**
+**MD  IRSHAD ALAM**
 
 If you found this project helpful, feel free to  the repository and contribute!
